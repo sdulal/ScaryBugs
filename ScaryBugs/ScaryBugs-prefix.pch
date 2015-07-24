@@ -1,0 +1,12 @@
+//
+//  ScaryBugs-prefix.pch
+//  ScaryBugs
+//
+//  Created by Shafqat Dulal on 7/24/15.
+//
+//
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
