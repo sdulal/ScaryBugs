@@ -25,6 +25,12 @@
 		9C692A451B6300DD0034661B /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9C692A3D1B6300DD0034661B /* potatoBugThumb.jpg */; };
 		9C692A461B6300DD0034661B /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9C692A3E1B6300DD0034661B /* wolfSpider.jpg */; };
 		9C692A471B6300DD0034661B /* wolfSpiderThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9C692A3F1B6300DD0034661B /* wolfSpiderThumb.jpg */; };
+		9C692A4B1B6304DB0034661B /* shockedface2_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C692A481B6304DB0034661B /* shockedface2_empty.png */; };
+		9C692A4C1B6304DB0034661B /* shockedface2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C692A491B6304DB0034661B /* shockedface2_full.png */; };
+		9C692A4D1B6304DB0034661B /* shockedface2_half.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C692A4A1B6304DB0034661B /* shockedface2_half.png */; };
+		9C692A501B6304E60034661B /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C692A4F1B6304E60034661B /* logo1.png */; };
+		9C692A531B6305020034661B /* RateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C692A521B6305020034661B /* RateView.m */; };
+		9C692A571B6305140034661B /* UIImageExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C692A561B6305140034661B /* UIImageExtras.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +72,14 @@
 		9C692A3D1B6300DD0034661B /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBugThumb.jpg; sourceTree = "<group>"; };
 		9C692A3E1B6300DD0034661B /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
 		9C692A3F1B6300DD0034661B /* wolfSpiderThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpiderThumb.jpg; sourceTree = "<group>"; };
+		9C692A481B6304DB0034661B /* shockedface2_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_empty.png; sourceTree = "<group>"; };
+		9C692A491B6304DB0034661B /* shockedface2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_full.png; sourceTree = "<group>"; };
+		9C692A4A1B6304DB0034661B /* shockedface2_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_half.png; sourceTree = "<group>"; };
+		9C692A4F1B6304E60034661B /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
+		9C692A511B6305020034661B /* RateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateView.h; sourceTree = "<group>"; };
+		9C692A521B6305020034661B /* RateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateView.m; sourceTree = "<group>"; };
+		9C692A551B6305140034661B /* UIImageExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageExtras.h; sourceTree = "<group>"; };
+		9C692A561B6305140034661B /* UIImageExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageExtras.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,14 +121,10 @@
 		9C692A051B62F6A30034661B /* ScaryBugs */ = {
 			isa = PBXGroup;
 			children = (
-				9C692A381B6300DD0034661B /* centipede.jpg */,
-				9C692A391B6300DD0034661B /* centipedeThumb.jpg */,
-				9C692A3A1B6300DD0034661B /* ladybug.jpg */,
-				9C692A3B1B6300DD0034661B /* ladybugThumb.jpg */,
-				9C692A3C1B6300DD0034661B /* potatoBug.jpg */,
-				9C692A3D1B6300DD0034661B /* potatoBugThumb.jpg */,
-				9C692A3E1B6300DD0034661B /* wolfSpider.jpg */,
-				9C692A3F1B6300DD0034661B /* wolfSpiderThumb.jpg */,
+				9C692A581B6305180034661B /* Helpers */,
+				9C692A541B6305050034661B /* Views */,
+				9C692A4E1B6304DD0034661B /* Art */,
+				9C692A591B6305230034661B /* Images */,
 				9C692A301B62F8610034661B /* Model */,
 				9C692A2F1B62F8430034661B /* GUI */,
 				9C692A161B62F6A30034661B /* Images.xcassets */,
@@ -174,6 +184,50 @@
 				9C692A351B62FB6A0034661B /* ScaryBugDoc.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		9C692A4E1B6304DD0034661B /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				9C692A4F1B6304E60034661B /* logo1.png */,
+				9C692A481B6304DB0034661B /* shockedface2_empty.png */,
+				9C692A491B6304DB0034661B /* shockedface2_full.png */,
+				9C692A4A1B6304DB0034661B /* shockedface2_half.png */,
+			);
+			name = Art;
+			sourceTree = "<group>";
+		};
+		9C692A541B6305050034661B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9C692A511B6305020034661B /* RateView.h */,
+				9C692A521B6305020034661B /* RateView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9C692A581B6305180034661B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9C692A551B6305140034661B /* UIImageExtras.h */,
+				9C692A561B6305140034661B /* UIImageExtras.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		9C692A591B6305230034661B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9C692A381B6300DD0034661B /* centipede.jpg */,
+				9C692A391B6300DD0034661B /* centipedeThumb.jpg */,
+				9C692A3A1B6300DD0034661B /* ladybug.jpg */,
+				9C692A3B1B6300DD0034661B /* ladybugThumb.jpg */,
+				9C692A3C1B6300DD0034661B /* potatoBug.jpg */,
+				9C692A3D1B6300DD0034661B /* potatoBugThumb.jpg */,
+				9C692A3E1B6300DD0034661B /* wolfSpider.jpg */,
+				9C692A3F1B6300DD0034661B /* wolfSpiderThumb.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,15 +310,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C692A151B62F6A30034661B /* Main.storyboard in Resources */,
+				9C692A4B1B6304DB0034661B /* shockedface2_empty.png in Resources */,
 				9C692A441B6300DD0034661B /* potatoBug.jpg in Resources */,
 				9C692A461B6300DD0034661B /* wolfSpider.jpg in Resources */,
 				9C692A471B6300DD0034661B /* wolfSpiderThumb.jpg in Resources */,
 				9C692A431B6300DD0034661B /* ladybugThumb.jpg in Resources */,
 				9C692A401B6300DD0034661B /* centipede.jpg in Resources */,
 				9C692A411B6300DD0034661B /* centipedeThumb.jpg in Resources */,
+				9C692A4C1B6304DB0034661B /* shockedface2_full.png in Resources */,
 				9C692A1A1B62F6A30034661B /* LaunchScreen.xib in Resources */,
 				9C692A451B6300DD0034661B /* potatoBugThumb.jpg in Resources */,
 				9C692A421B6300DD0034661B /* ladybug.jpg in Resources */,
+				9C692A4D1B6304DB0034661B /* shockedface2_half.png in Resources */,
+				9C692A501B6304E60034661B /* logo1.png in Resources */,
 				9C692A171B62F6A30034661B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +342,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C692A331B62F8D20034661B /* ScaryBugData.m in Sources */,
+				9C692A531B6305020034661B /* RateView.m in Sources */,
+				9C692A571B6305140034661B /* UIImageExtras.m in Sources */,
 				9C692A0C1B62F6A30034661B /* AppDelegate.m in Sources */,
 				9C692A0F1B62F6A30034661B /* MasterViewController.m in Sources */,
 				9C692A091B62F6A30034661B /* main.m in Sources */,

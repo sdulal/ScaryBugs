@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "RWTRateView.h"
+#import "RateView.h"
 
-@implementation RWTRateView
+@implementation RateView
 
 @synthesize notSelectedImage = _notSelectedImage;
 @synthesize halfSelectedImage = _halfSelectedImage;

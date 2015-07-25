@@ -6,7 +6,7 @@
 //  Copyright 2010 Ray Wenderlich. All rights reserved.
 //
 
-#import "RWTUIImageExtras.h"
+#import "UIImageExtras.h"
 
 @implementation UIImage (Extras)
 

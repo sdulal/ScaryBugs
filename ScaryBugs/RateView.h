@@ -8,13 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@class RWTRateView;
+@class RateView;
 
-@protocol RWTRateViewDelegate
-- (void)rateView:(RWTRateView *)rateView ratingDidChange:(float)rating;
+@protocol RateViewDelegate
+- (void)rateView:(RateView *)rateView ratingDidChange:(float)rating;
 @end
 
-@interface RWTRateView : UIView
+@interface RateView : UIView
 
 @property (strong, nonatomic) UIImage *notSelectedImage;
 @property (strong, nonatomic) UIImage *halfSelectedImage;
@@ -26,6 +26,6 @@
 @property (assign) int midMargin;
 @property (assign) int leftMargin;
 @property (assign) CGSize minImageSize;
-@property (assign) id <RWTRateViewDelegate> delegate;
+@property (assign) id <RateViewDelegate> delegate;
 
 @end
