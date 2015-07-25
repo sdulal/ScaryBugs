@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C68E47B1B640E55005B8036 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C68E47A1B640E55005B8036 /* QuartzCore.framework */; };
+		9C68E48A1B641202005B8036 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C68E4851B641202005B8036 /* SVIndefiniteAnimatedView.m */; };
+		9C68E48B1B641202005B8036 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C68E4871B641202005B8036 /* SVProgressHUD.bundle */; };
+		9C68E48C1B641202005B8036 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C68E4891B641202005B8036 /* SVProgressHUD.m */; };
 		9C692A091B62F6A30034661B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C692A081B62F6A30034661B /* main.m */; };
 		9C692A0C1B62F6A30034661B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C692A0B1B62F6A30034661B /* AppDelegate.m */; };
 		9C692A0F1B62F6A30034661B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C692A0E1B62F6A30034661B /* MasterViewController.m */; };
@@ -44,6 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C68E47A1B640E55005B8036 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9C68E47F1B640EAA005B8036 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		9C68E4841B641202005B8036 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		9C68E4851B641202005B8036 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		9C68E4861B641202005B8036 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		9C68E4871B641202005B8036 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		9C68E4881B641202005B8036 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		9C68E4891B641202005B8036 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		9C692A031B62F6A30034661B /* ScaryBugs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaryBugs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C692A071B62F6A30034661B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C692A081B62F6A30034661B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -87,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C68E47B1B640E55005B8036 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,9 +113,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C68E4831B641202005B8036 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9C68E4841B641202005B8036 /* SVIndefiniteAnimatedView.h */,
+				9C68E4851B641202005B8036 /* SVIndefiniteAnimatedView.m */,
+				9C68E4861B641202005B8036 /* SVProgressHUD-Prefix.pch */,
+				9C68E4871B641202005B8036 /* SVProgressHUD.bundle */,
+				9C68E4881B641202005B8036 /* SVProgressHUD.h */,
+				9C68E4891B641202005B8036 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
 		9C6929FA1B62F6A30034661B = {
 			isa = PBXGroup;
 			children = (
+				9C68E47A1B640E55005B8036 /* QuartzCore.framework */,
 				9C692A051B62F6A30034661B /* ScaryBugs */,
 				9C692A221B62F6A30034661B /* ScaryBugsTests */,
 				9C692A041B62F6A30034661B /* Products */,
@@ -121,6 +148,7 @@
 		9C692A051B62F6A30034661B /* ScaryBugs */ = {
 			isa = PBXGroup;
 			children = (
+				9C68E4831B641202005B8036 /* SVProgressHUD */,
 				9C692A581B6305180034661B /* Helpers */,
 				9C692A541B6305050034661B /* Views */,
 				9C692A4E1B6304DD0034661B /* Art */,
@@ -136,6 +164,7 @@
 		9C692A061B62F6A30034661B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9C68E47F1B640EAA005B8036 /* SVProgressHUD-Prefix.pch */,
 				9C692A071B62F6A30034661B /* Info.plist */,
 				9C692A081B62F6A30034661B /* main.m */,
 				9C692A371B62FC6B0034661B /* ScaryBugs-prefix.pch */,
@@ -310,6 +339,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C692A151B62F6A30034661B /* Main.storyboard in Resources */,
+				9C692A1A1B62F6A30034661B /* LaunchScreen.xib in Resources */,
+				9C68E48B1B641202005B8036 /* SVProgressHUD.bundle in Resources */,
+				9C692A171B62F6A30034661B /* Images.xcassets in Resources */,
 				9C692A4B1B6304DB0034661B /* shockedface2_empty.png in Resources */,
 				9C692A441B6300DD0034661B /* potatoBug.jpg in Resources */,
 				9C692A461B6300DD0034661B /* wolfSpider.jpg in Resources */,
@@ -318,12 +350,10 @@
 				9C692A401B6300DD0034661B /* centipede.jpg in Resources */,
 				9C692A411B6300DD0034661B /* centipedeThumb.jpg in Resources */,
 				9C692A4C1B6304DB0034661B /* shockedface2_full.png in Resources */,
-				9C692A1A1B62F6A30034661B /* LaunchScreen.xib in Resources */,
 				9C692A451B6300DD0034661B /* potatoBugThumb.jpg in Resources */,
 				9C692A421B6300DD0034661B /* ladybug.jpg in Resources */,
 				9C692A4D1B6304DB0034661B /* shockedface2_half.png in Resources */,
 				9C692A501B6304E60034661B /* logo1.png in Resources */,
-				9C692A171B62F6A30034661B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,10 +373,12 @@
 			files = (
 				9C692A331B62F8D20034661B /* ScaryBugData.m in Sources */,
 				9C692A531B6305020034661B /* RateView.m in Sources */,
+				9C68E48A1B641202005B8036 /* SVIndefiniteAnimatedView.m in Sources */,
 				9C692A571B6305140034661B /* UIImageExtras.m in Sources */,
 				9C692A0C1B62F6A30034661B /* AppDelegate.m in Sources */,
 				9C692A0F1B62F6A30034661B /* MasterViewController.m in Sources */,
 				9C692A091B62F6A30034661B /* main.m in Sources */,
+				9C68E48C1B641202005B8036 /* SVProgressHUD.m in Sources */,
 				9C692A361B62FB6A0034661B /* ScaryBugDoc.m in Sources */,
 				9C692A121B62F6A30034661B /* DetailViewController.m in Sources */,
 			);
@@ -547,6 +579,7 @@
 				9C692A2B1B62F6A30034661B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C692A2C1B62F6A30034661B /* Build configuration list for PBXNativeTarget "ScaryBugsTests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +588,7 @@
 				9C692A2E1B62F6A30034661B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
